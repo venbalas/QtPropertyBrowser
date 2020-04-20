@@ -10,7 +10,7 @@ SET (CMAKE_MODULE_PATH "${CMAKE_MODULE_PATH}" "${PROJECT_CMAKE_DIR}")
 INCLUDE(CompileSettings)
 
 # Add custom Install Settings
-INCLUDE(InstallSettings)
+# INCLUDE(InstallSettings)
 
 ##################### Look for required libraries ######################
 
@@ -27,7 +27,7 @@ IF(BUILD_EXAMPLES)
 ENDIF()
 
 ######################### Installation Stuff ###########################
-INCLUDE(InstallProjectConfig)
+# INCLUDE(InstallProjectConfig)
 
 ###################### Add uninstall target ############################
 ADD_CUSTOM_TARGET(uninstall
